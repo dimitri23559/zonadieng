@@ -18,9 +18,9 @@ class DatabaseSeeder extends Seeder
     {
 
         User::create([
-            'name' => 'Galang aidil',
-            'username' => 'galang',
-            'email' => 'galangaidil45@gmail.com',
+            'name' => 'embuh',
+            'username' => 'embuh',
+            'email' => 'embuh@gmail.com',
             'password' => bcrypt('12345')
         ]);
 
@@ -33,13 +33,13 @@ class DatabaseSeeder extends Seeder
         User::factory(3)->create();
 
         Category::create([
-            'name' => 'Web Programming',
-            'slug' => 'web-programming'
+            'name' => 'homestay',
+            'slug' => 'homestay'
         ]);
 
         Category::create([
-            'name' => 'Web Design',
-            'slug' => 'web-design'
+            'name' => 'wisata',
+            'slug' => 'tempat-wisata'
         ]);
 
         Category::create([
