@@ -27,10 +27,7 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about', [
-        "title" => "",
-        "name" => "",
-        "email" => "",
-        "image" => "5190411250.jpg"
+        "title" => "about",
     ]);
 });
 

@@ -1,4 +1,7 @@
- <head>
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>Jadoo | Travel Agency Landing Page UI</title>
+   
 
 
     <!-- ===============================================-->
@@ -31,19 +34,20 @@
 
 
   <body>
+  @extends('layouts.second')
 
     <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/logo.svg" height="130" alt="logo" /></a>
+        <div class="container"><a class="navbar-brand" href="/"><img src="assets/img/logo.svg" height="70" alt="logo" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#service">Service</a></li>
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#destination">Destination</a></li>
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#booking">Booking</a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="/">Home</a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="/about">About</a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="/posts">Blog</a></li>
               <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#testimonial">Testimonial</a></li>
              
             </ul>
@@ -178,8 +182,7 @@
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
-
-
+    
 
 
       <!-- ============================================-->
@@ -242,7 +245,7 @@
                             </div>
                           </div>
                         </div>
-                        <button class="btn"> <img src="assets/img/steps/heart.svg" width="20" alt="step" /></button>
+                     
                       </div>
                     </div>
                   </div>
@@ -261,7 +264,7 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section id="testimonial">
+      <!-- <section id="testimonial">
 
         <div class="container">
           <div class="row">
@@ -325,7 +328,7 @@
           </div>
         </div><!-- end of .container-->
 
-      </section>
+      </section> -->
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
@@ -363,3 +366,4 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
   </body>
 
+</html>
